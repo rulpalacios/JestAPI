@@ -1,0 +1,19 @@
+{
+  "name": "jestapi",
+  "version": "1.0.0",
+  "description": "JestAPI with Express.JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "keywords": [
+    "jest",
+    "express"
+  ],
+  "author": "Raul Palacios",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.17.1",
+    "nanoid": "^3.1.10"
+  }
+}
