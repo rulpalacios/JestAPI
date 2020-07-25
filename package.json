@@ -4,8 +4,11 @@
   "description": "JestAPI with Express.JS",
   "main": "index.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --runInBand"
   },
+  "jest": {
+    "testEnvironment": "node"
+  },  
   "keywords": [
     "jest",
     "express"
@@ -15,5 +18,9 @@
   "dependencies": {
     "express": "^4.17.1",
     "nanoid": "^3.1.10"
+  },
+  "devDependencies": {
+    "jest": "^26.1.0",
+    "supertest": "^4.0.2"
   }
 }
