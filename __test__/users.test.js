@@ -25,6 +25,7 @@ describe('GET /api/users', () => {
 describe('GET /api/users/:id', () => {
   it('should GET a exercise', async () => {
     const response = await request(app).get('/api/users/1')
+    console.log(response.body)
     expect(response.error).toBe(false)
     expect(response.status).toBe(200)
     expect(response.body.body).not.toBeNull()
