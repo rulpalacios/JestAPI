@@ -9,7 +9,7 @@
   },
   "jest": {
     "testEnvironment": "node"
-  },
+  },  
   "keywords": [
     "jest",
     "express"
